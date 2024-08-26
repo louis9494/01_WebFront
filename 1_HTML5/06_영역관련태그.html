@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div, span{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>영역을 나누는 형식(성질)</h1>
+
+    <pre>
+<h3>block 형식</h3>
+-항상 새로운 줄에서 요소가 시작
+-이전 요소의 아래에 쌓임
+-크기를 지정하는 width,height 속성을 사용 할 수 있음
+
+ex) p/pre, h1~h6, hr, div, ul, li 등
+    </pre>
+    <h2>block(div) /lnline(span) 차이점 1 
+        <p>
+        block 형식의 태그는 한 줄을 모두 차지하기 떄문에 <br>
+        뒤에 오는 내용은 다음줄에 출력이 된다.
+        </p>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+
+        <hr>
+
+        <h3>span 태그</h3>
+        <p>
+            inline 형식 태그는 한 줄 내에서 일정한 칸을 차지하기 떄문에 
+            뒤에오는 내용은 줄이 바뀌지 않고 옆에 붙는다
+        </p>
+
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        
+        <hr>
+
+        <h2>block(div)/inline(span) 차이점 2 : 영역 지정 방식</h2>
+        <UL>
+            <li>block : 사각형 박스 형태로 영역을 지정</li>
+            <li>inline : 내부에 작성된 내용(Content) 단위로 영역을 지정</li>
+        </UL>
+
+        <div style="background-color: aquamarine;">
+            1. 동해물과 백두산이 마르고 닳도록<br>
+            하느님이 보우하사 우리나라 만세<br>
+            무궁화 삼천리 화려 강산<br>
+            대한 사람 대한으로 길이 보전하세<br>
+            2. 남산 위에 저 소나무 철갑을 두른 듯<br>
+            바람 서리 불변함은 우리 기상일세<br>
+            무궁화 삼천리 화려 강산<br>
+            대한 사람 대한으로 길이 보전하세<br>
+
+        </div>
+        <span>
+            3. 가을 하늘 공활한데 높고 구름 없이<br>
+            밝은 달은 우리 가슴 일편단심일세<br>
+            무궁화 삼천리 화려 강산<br>
+            대한 사람 대한으로 길이 보전하세<br>
+            4. 이 기상과 이 맘으로 충성을 다하여<br>
+            괴로우나 즐거우나 나라 사랑하세<br>
+            무궁화 삼천리 화려 강산<br>
+            대한 사람 대한으로 길이 보전하세<br>
+
+        </span>
+
+        <hr>
+        <h2>block(div) / inline(span) 차이점3 크기지정 (height /width)</h2>
+
+
+        <h3>div 태그</h3>
+
+        <div style="width: 200px; height : 200px;">test</div>
+        <div style="width: 200px; height : 200px;">test</div>
+        
+        <h3>span 태그</h3>
+        
+        <span style>test</span>
+        <span style>test</span>
+
+        <hr>
+
+        <h2>iframe 태그</h2>
+        <p>
+            웹 문서 내부에 다른 웹문서를 추가하는 태그
+            iframe 태그 == inline 형식이지만 크기 지정 가능
+        </p>
+
+        <iframe src="04_표관련태그.html" width="800px" height="1000px"></iframe>
+
+       
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/6Kl8NCCjfpU?si=Rqr_37jPqZHlTAl4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div>style="height: 500px; border: none;"</div>
+</body>
+</html>
