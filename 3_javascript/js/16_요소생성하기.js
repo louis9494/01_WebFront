@@ -46,4 +46,4 @@ console.log(container.classList);
 const innerHTMLBox = addEventListener("click", () => {
 
   container.innerHTML += "<div class='box'><input type='text'></div>"
-})
+});
