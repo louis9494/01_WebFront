@@ -205,6 +205,7 @@ arrowList[3].addEventListener("click", () => {
 
 printObject( (name, age) => {
   return {"name" : name, "age" : age}
+  
   // JS 객체 {K:V K:V ...} 
 
 } );
@@ -214,4 +215,3 @@ printObject( (name, age) => {
 
 console.log(Hello => 미현 )
 
-시험문제 태그 사이에 
