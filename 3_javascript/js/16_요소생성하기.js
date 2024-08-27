@@ -45,5 +45,5 @@ console.log(container.classList);
 // innerHTML로 요소 추가
 const innerHTMLBox = addEventListener("click", () => {
 
-  container.innerHTML += "<div class='box'><input type='text'</div>"
+  container.innerHTML += "<div class='box'><input type='text'></div>"
 })

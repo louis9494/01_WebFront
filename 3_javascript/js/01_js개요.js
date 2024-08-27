@@ -24,5 +24,6 @@ function lightMode() {
   body.style.backgroundColor = "white"; 
 }
 //학원에서 작성
-//집에서 작성!
+
+//집에서 작성@!!
 /* 실행되면 라이트모드로 바꾸는 함수(기능)*/

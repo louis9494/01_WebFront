@@ -88,4 +88,4 @@ document.getElementById("inputPno").addEventListener("keyup", (e) => {
     span.classList.remove("conform");
 
   }
-})
+});
